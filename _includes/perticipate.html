@@ -1,0 +1,27 @@
+    <!-- Contact Section -->
+    <section id="perticipate" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Participate</h2>
+                <p>We are happy for every contribution to the OntoWiki project. You can:
+                    <ul>
+                        <li>Register to our <a href="https://groups.google.com/forum/#!forum/ontowiki-user">mailing list</a></li>
+                        <li>Ask question on stackoverflow with the tag <a href="http://stackoverflow.com/questions/tagged/ontowiki" class="stackoverflow-posttag">ontowiki</a></li>
+                        <li>Create a <a href="https://github.com/AKSW/OntoWiki/issues/new" class="github-new-issue">New Issue</a> on github</li>
+                    </ul>
+                </p>
+                <p>OntoWiki is Open Source and published under the terms of the GNU General Public License Version2 (GPLv2).
+                   You can take the source code, copy it, improve it, and redistribute it, as you like.</p>
+                <p></p>
+                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    {% for network in site.social %}
+                    <li>
+                        <a href="{{ network.url }}" class="btn btn-default btn-lg">{% if network.logo %}<i class="fa fa-{{ network.logo }} fa-fw"></i>{% else %}<i class="fa fa-{{ network.title }} fa-fw"></i>{% endif %} <span class="network-name">{{ network.title }}</span></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
