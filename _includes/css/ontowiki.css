@@ -1,3 +1,4 @@
+
 navbar-brand:before {
     width: 46px;
     height: 44px;
@@ -5,7 +6,30 @@ navbar-brand:before {
 }
 
 .brand-heading img {
-    width: 100%
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+@media(max-height:800px) {
+    .brand-heading img {
+        margin-top: 10px;
+    }
+    ul.banner-advertised-buttons {
+        margin-top: 60px;
+    }
+}
+
+.navbar-brand {
+    visibility: hidden;
+}
+
+.navbar-brand img {
+    height: 25pt;
+}
+
+.top-nav-collapse .navbar-brand {
+    visibility: visible;
 }
 
 .intro .intro-body .container {
@@ -14,6 +38,36 @@ navbar-brand:before {
     border-style: solid;
     border-color:  rgba(0,0,0,0);
     border-radius: 20px
+}
+
+ul.banner-advertised-buttons .btn-lg {
+    font-size: 26px;
+}
+
+ul.banner-advertised-buttons {
+    margin-top: 0;
+}
+
+ul.banner-advertised-buttons li {
+    margin-bottom: 15px;
+}
+
+@media(max-width:1199px) {
+    ul.banner-advertised-buttons {
+        margin-top: 60px;
+    }
+}
+
+@media(max-width:767px) {
+    ul.banner-advertised-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-advertised-buttons li:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .stackoverflow-posttag {

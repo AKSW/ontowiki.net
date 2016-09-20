@@ -2,12 +2,13 @@
 title: OntoWiki
 email: your-email@domain.com
 url: http://ontowiki.net
-description: "Semantic data wiki as well as Linked Data publishing engine"
+description: "Semantic Data Wiki and Linked Data Publishing Engine"
 # The Semantic Web Tool for Agile, Distributed Knowledge Engineering
 
-# Color settings (hex-codes without the leading hash-tag)
+# Color settings (hex-codes with the leading hash)
 color:
   primary-dark: '#000000'
+  primary-light: '#ffffff'
   links: '#219ab3'
 
 # Footer settings
@@ -16,18 +17,21 @@ footer_link: http://aksw.org/Imprint.html
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: stack-overflow
+  - title: stackoverflow
+    logo: stack-overflow
     url: http://stackoverflow.com/questions/tagged/ontowiki
   - title: github
     url: https://github.com/AKSW/OntoWiki
   - title: aksw
     logo: globe
     url: http://aksw.org/Projects/OntoWiki
+
+advertised:
+  - title: download
+    url: "#download"
   - title: documentation
     logo: book
     url: "http://docs.ontowiki.net/"
-  - title: download
-    url: "#download"
 
 # Build settings
 markdown: kramdown
