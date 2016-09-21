@@ -17,14 +17,16 @@ footer_link: http://aksw.org/Imprint.html
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: aksw
+    logo: globe
+    url: http://aksw.org/Projects/OntoWiki
+
+participate:
   - title: stackoverflow
     logo: stack-overflow
     url: http://stackoverflow.com/questions/tagged/ontowiki
   - title: github
     url: https://github.com/AKSW/OntoWiki
-  - title: aksw
-    logo: globe
-    url: http://aksw.org/Projects/OntoWiki
 
 advertised:
   - title: download
