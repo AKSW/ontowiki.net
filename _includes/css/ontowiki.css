@@ -276,5 +276,13 @@ ul.banner-advertised-buttons li {
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
     -moz-user-select: none;
+}
 
+p.left {
+    text-align: left;
+}
+
+
+p.right {
+    text-align: right;
 }
