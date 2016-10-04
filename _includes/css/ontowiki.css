@@ -279,10 +279,10 @@ ul.banner-advertised-buttons li {
 }
 
 p.left {
-    text-align: left;
+    text-align: justify;
 }
 
 
 p.right {
-    text-align: right;
+    text-align: justify;
 }
