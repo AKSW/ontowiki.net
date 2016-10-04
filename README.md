@@ -1,13 +1,6 @@
-Grayscale Jekyll theme
-=========================
+OntoWiki.net
+============
 
-Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
+Landingpage for the OntoWiki project.
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
-
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
-
-=========
-For more details, read the [documentation](http://jekyllrb.com/)
+The layout is based on the [Grayscale Jekyll theme](https://jeromelachaud.github.io/grayscale-theme), which is based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/) and run with [Jekyll](http://jekyllrb.com/).
